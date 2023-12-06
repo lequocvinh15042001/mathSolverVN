@@ -1,0 +1,26 @@
+.spnoi h2{
+    background-color: #1e2177;
+    float: left;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.1em;
+    margin-bottom: 1.5rem;
+    padding: 10px 20px;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    text-transform: uppercase;
+}
+
+.spnoi h2::after{
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #1e2177;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 10px;
+}
+
